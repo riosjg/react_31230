@@ -1,18 +1,16 @@
 import logo from "./logo.svg";
 import "./App.css";
 import NavBar from "./components/NavBar";
-import WidgetCart from "../src/components/NavBar/WidgetCart";
-import Title from "./components/TitleClassComp";
-import ClickTracker from "./components/ClickTracker";
+import Title from "./components/ExampleComponents/TitleClassComp";
+import ClickTracker from "./components/ExampleComponents/ClickTracker";
+import ItemListContainer from "./components/ItemListContainer";
+import Promises from "./components/ExampleComponents/Promises";
+import MapExample from "./components/ExampleComponents/Map";
 
 function App() {
   return (
     <>
-      {/* <NavBar WidgetCart={WidgetCart}>
-        <button>Botón 1</button>
-      </NavBar> */}
-      {/* <Title /> */}
-      <ClickTracker />
+      <ItemListContainer />
     </>
   );
 }
