@@ -1,0 +1,10 @@
+{
+  "id": 3,
+  "title": "Maurise",
+  "price": 11,
+  "stock": 14,
+  "pictureUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAF7SURBVDjLpZI/S5thFMVPXt9aakBjIYJvyFycnZw7KDhkcCi41BK30tpkqA5d/QClLv0IKuIQB/8Mje5dVLCCxhQtkg+QFnLPuU8HqYY0Q4h3fLjnx+9ynlQIAY+ZqNfFxcr8ypvtVwN9A2icp/Fr53uq84SlajEv+ZyoacknRWVlwvhwDk6h1qh93lzY+dAV8L5anHL6cpLOFTJPR5F+kkYcxfDgoAt04rR+gtqvq9XK24NPABDfh78V85KWX2QmCmPpMfyx34iiCHRCLngIkAtGwoyD/3L3AFFzyVBSyA5lQRdMwtntOX426qAJyfMEpHB1U1vbLVU//gcgNT08mEHTmqCEox+H1zRubbyulABg9svLY5q+75Wr77q2IOPMyLMRDKRiXDYu0B4GADOum3Gxs4UHAxMoQsFRb9SxubBTal/cLx+udqu3DUAwEJKDLfb8E+M2RRgFQTDrA8CW7gxc/RnQCBPhoU8DaxF0wh9jsH+0d9cGewf8BRKi/IUanjYRAAAAAElFTkSuQmCC",
+  "description": "description",
+  "color": "red",
+  "discount": 10
+}
