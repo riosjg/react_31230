@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Item = ({ item }) => {
   const { title, price, stock, pictureUrl } = item;
   return (
@@ -6,9 +8,9 @@ const Item = ({ item }) => {
       <div className="card-body d-flex flex-column justify-content-center">
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{`${stock} units available!`}</p>
-        <a href="google.com" className="btn btn-primary ">
-          See product details
-        </a>
+        <Link to={"/detail"}>
+          <button className="btn btn-primary">See product details</button>
+        </Link>
       </div>
     </div>
   );
