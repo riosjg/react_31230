@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 487,
     "title": "Teriann",
     "price": "Calliss",
     "stock": 29,
@@ -13,10 +13,7 @@
     "price": "Livett",
     "stock": 28,
     "pictureUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAG+SURBVDjLnZNNSwJRFIbfGccPCKJMoqSwdBcEobUQWrmIChJs07pVuA36By0KWrTtB7hqGSQSFBGCbdq0ECkhSmgxldmHOuP9aO4VpSEV6cDhHu7c85z3nLkXnHP048/RKO+0r6JPO9nc7LivCErL8vk8p5SCEILWKlzXdWSzWfj9foRCIcTjcaWVo/2mNRoNBINBGf8GizgWi8k1k8nYFNgAopqwi0KzM2oxKAMYZ5YiYHmGwDCM7gDTNGWV8Fi54yCBof4AudKwrEpYUwGxqjPGkZgjqNfrvQHCFsZfuvzO4d4KxEdx8PLBa/XPpQJGm7PgloKN+UZvBRX6LgGLk3oXBV588c/OgJ1ccso15MEKX7X6ZUilUlBVFYqiyDWRSKBivONxvGgDtG+ilTStOh3IV25lNU3TEA6HEYlEZCyg5VoZrgEX1o6W122A7ezWIKhyPuL04ayUlodFkvCWihqpYv9qFwFfAMSkB0uHsdk2gBKaNEyT3+kFfL9Wkbk5BXMyOByONiR9nYZWd+Ht40VcOD8lbLc9A3rs2ZMPw/IqKAq4l/JKxZKtX68yitenMibMgNtteuJ/HtN/7AcakErwOe40HwAAAABJRU5ErkJggg==",
-    "category": {
-      "id": 4,
-      "name": "hardware"
-    }
+    "category": "hardware"
   },
   {
     "id": 3,

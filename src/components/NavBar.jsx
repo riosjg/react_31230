@@ -22,16 +22,8 @@ const NavBar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a className="nav-link active" aria-current="page" href="">
-                Home
-              </a>
-              <a className="nav-link" href="">
-                Features
-              </a>
-              <a className="nav-link" href="">
-                Pricing
-              </a>
-              <a className="nav-link disabled">Disabled</a>
+              <Link to={"category/instruments"}>Instruments</Link>
+              <Link to={"category/hardware"}>Hardware</Link>
             </div>
           </div>
           <WidgetCart />
