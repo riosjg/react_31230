@@ -1,5 +1,5 @@
-import WidgetCart from "./WidgetCart";
 import { Link } from "react-router-dom";
+import WidgetCart from "./WidgetCart";
 
 const NavBar = () => {
   return (

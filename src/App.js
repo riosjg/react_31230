@@ -12,25 +12,33 @@ import ItemDetailContainer from "./components/ItemDetailContainer";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import UnmountExample from "./components/ExampleComponents/UnmountExample";
 import Intercambilidad from "./components/ExampleComponents/Intercambiabilidad";
+import CartProvider from "./contexts/CartContext";
+import Test from "./components/ExampleComponents/Test";
+import Cart from "./components/Cart";
 
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <NavBar />
-        <Routes>
-          <Route index element={<ItemListContainer />} />
-          <Route path="/category/:name" element={<ItemListContainer />} />
-          <Route path="item/:id" element={<ItemDetailContainer />} />
-          <Route
-            path="*"
-            element={
-              <div style={{ backgroundColor: "red" }}> ERROR 404 NOT FOUND</div>
-            }
-          />
-          <Route path="/cart" element={<div>Cart Page</div>} />
-        </Routes>
-      </BrowserRouter>
+      <CartProvider>
+        <BrowserRouter>
+          <NavBar />
+          <Routes>
+            <Route index element={<ItemListContainer />} />
+            <Route path="/category/:name" element={<ItemListContainer />} />
+            <Route path="item/:id" element={<ItemDetailContainer />} />
+            <Route
+              path="*"
+              element={
+                <div style={{ backgroundColor: "red" }}>
+                  {" "}
+                  ERROR 404 NOT FOUND
+                </div>
+              }
+            />
+            <Route path="/cart" element={<Cart />} />
+          </Routes>
+        </BrowserRouter>
+      </CartProvider>
     </>
   );
 }
