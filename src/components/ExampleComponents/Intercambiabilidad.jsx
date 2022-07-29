@@ -14,10 +14,14 @@ const ButtonCount = ({ onAdd, stock }) => (
 
 const Intercambilidad = ({ countType }) => {
   const onAdd = () => console.log("This is triggering onAdd");
-  const Count = countType == "button" ? ButtonCount : InputCount;
+  const Count = countType == "input" ? InputCount : ButtonCount;
+
+  // const Count = countType == "button" ? ButtonCount : InputCount;
   return (
     <>
-      <Count onAdd={onAdd} stock={4} />
+      <Count onAdd={onAdd} stock={1} />
+      <ButtonCount onAdd={onAdd} stock={10} />
+      <InputCount onAdd={onAdd} stock={200} />
     </>
   );
 };

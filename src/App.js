@@ -19,6 +19,7 @@ import Cart from "./components/Cart";
 function App() {
   return (
     <>
+      <Test cantidad={999} />
       <CartProvider>
         <BrowserRouter>
           <NavBar />

@@ -22,8 +22,18 @@ const NavBar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <Link to={"category/instruments"}>Instruments</Link>
-              <Link to={"category/hardware"}>Hardware</Link>
+              <Link
+                style={{ textDecoration: "none", margin: "1rem" }}
+                to={"category/instruments"}
+              >
+                Instruments
+              </Link>
+              <Link
+                style={{ textDecoration: "none", margin: "1rem" }}
+                to={"category/hardware"}
+              >
+                Hardware
+              </Link>
             </div>
           </div>
           <WidgetCart />
