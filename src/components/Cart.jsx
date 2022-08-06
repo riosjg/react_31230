@@ -3,16 +3,15 @@ import { CartContext } from "../contexts/CartContext";
 
 const Cart = () => {
   const [totalPrice, setTotalPrice] = useState(0);
-  const { cartItems, sendOrder, updateOrder, multipleUpdates } =
-    useContext(CartContext);
+  const { cartItems, sendOrder } = useContext(CartContext);
   const handleSubmit = (e) => {
     e.preventDefault();
     const inputs = document.getElementsByTagName("input");
     console.log(inputs[0]);
     const data = Array.from(inputs).map((input, index) => input.value);
-    // sendOrder(totalPrice, { name: data[0], mail: data[1], phone: data[2] });
+    sendOrder(totalPrice, { name: data[0], mail: data[1], phone: data[2] });
     // updateOrder();
-    multipleUpdates();
+    // multipleUpdates();
   };
   useEffect(() => {
     let total = 0;

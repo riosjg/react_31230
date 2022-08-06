@@ -19,7 +19,7 @@ import Cart from "./components/Cart";
 function App() {
   return (
     <>
-      <Test cantidad={999} />
+      {/* <ImprovableComp /> */}
       <CartProvider>
         <BrowserRouter>
           <NavBar />
